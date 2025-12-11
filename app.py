@@ -94,9 +94,3 @@ if st.button("تقدير احتمال التأخر"):
         st.success("الرحلة متوقع أن تصل في الوقت.")
 
 st.markdown("---")
-
-with st.expander("معلومات عن النموذج"):
-    st.write(f"- عدد معاملات النموذج: **{num_features}**")
-    st.write(f"- المعامل المستخدم في هذا النموذج المبسط: **{len(used_coeffs)}**")
-    st.write(f"- قيمة الـ Intercept: `{intercept:.4f}`")
-
